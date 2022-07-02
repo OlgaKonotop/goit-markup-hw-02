@@ -93,6 +93,7 @@ color: var(--secondary-txt-cl);
 .btn-hero {
   font-family: inherit;
   font-weight: 700;
+  font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
   color: #ffffff;
@@ -120,7 +121,7 @@ color: var(--secondary-txt-cl);
   font-weight: 700;
   line-height: calc(16 / 14);
   text-transform: uppercase;
-  color: var(--main-font);
+  color: var(--main-txt-cl);
 }
 .about-text {
     line-height: calc(24 / 14);
@@ -135,7 +136,7 @@ color: var(--secondary-txt-cl);
   line-height: calc(42 / 36);
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--main-font);
+  color: var(--main-txt-cl);
 }
 
 /*  Section team */
@@ -145,6 +146,7 @@ color: var(--secondary-txt-cl);
 
 .team-item-title,
 .team-item-text {
+  font-size: 16px;
    line-height: calc(16 / 19);
   text-align: center;
   letter-spacing: 0.03em;
@@ -152,11 +154,11 @@ color: var(--secondary-txt-cl);
 
 .team-item-title {
   font-weight: 500;
-  color: --main-font;
+  color: var(--main-txt-cl);
 }
 .team-item-text {
    letter-spacing: 0.03em;
-  color: --secondary-txt-cl;
+  color: var(--secondary-txt-cl);
 }
 
 /* Footer Подвал */
@@ -180,9 +182,10 @@ color: var(--secondary-txt-cl);
 .btn {
   font-family: inherit;
   font-weight: 500;
+  font-size: 16px;
  line-height: 1.62;
   letter-spacing: 0.03em;
-  color: var(--main-font);
+  color: var(--main-txt-cl);
   cursor: pointer;
 }
 
